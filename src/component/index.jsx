@@ -10,7 +10,7 @@ const withStyles = require('isomorphic-style-loader/withStyles')
 
 module.exports = withStyles(styles)(function App() {
   return (
-    <div className="container">Hello, World</div>
+    <div className={styles.container}>Hello, World</div>
   )
 })
 
